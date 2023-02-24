@@ -1,0 +1,49 @@
+{
+  "basics": {
+    "name": "Kairi Tanaka",
+    "label": "Student",
+    "picture": "https://github.com/km584.png",
+    "email": "km321@hawaii.edu",
+    "phone": "808-784-8098",
+    "website": "https://km584.github.io",
+    "summary": "I am studying for Computer Science in the University of Hawaii at Manoa. I plan to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96815", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "km584", "url": "http://github.com/km584" },
+      { "network": "linkedin", "username": "Kairi Tanaka", "url": "https://www.linkedin.com/in/kairi-tanaka-4067a5262/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "AI Programming" },
+    { "name": "Game Design" },
+    { "name": "Virtual Reality" },
+    { "name": "3D Graphics" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-21",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

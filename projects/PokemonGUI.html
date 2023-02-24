@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pokemon GUI of Hunt and Pokedex | Kairi Tanaka | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/km584.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kairi Tanaka | Professional Portfolio">
+    <meta property="og:url" content="https://kairitanaka.github.io/projects/PokemonGUI.html">
+    <meta property="og:title" content="Pokemon GUI of Hunt and Pokedex | Kairi Tanaka | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/km584.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pokemon GUI of Hunt and Pokedex | Kairi Tanaka | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kairi Tanaka</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Pokemon GUI of Hunt and Pokedex</h1>
+ <p><img class="img-fluid" src="../img/PokemonHuntGUI.jpeg" /></p>
+
+<p>This program is create the GUI of Pokemon that user could play to hunt Pokemon and catch. And can store Pokemon data in Pokedex and in backpack button it will display all Pokemon that were catch even Pokemon is duplicate, for Pokedex will only display the Pokemon once.</p>
+
+<p>This program is implements Pokemon status and Pokedex function and the class of Pokemon panel that is requires to display and works the button and the text area in GUI.</p>
+
+<p>From this group work, I learned that how the GUI function is works like when user push the button what function will work and display the text of result of function. I feel this is important to know how the GUI could be made, it have to be made frame and function and these are connected.</p>
+
+<p>This is the main method of GUI frame:</p>
+
+<p>’'’import javax.swing.JFrame;
+/**</p>
+<ul>
+  <li>Assignment 9: Pokemon GUI - the Frame.</li>
+  <li>@author Kairi Tanaka &amp; Jamie Laurin</li>
+  <li>@since 12/03/2021
+*/
+public class PokemonFrame {
+/** main method.
+    <ul>
+      <li>
+        <p>@param args not used
+ */
+ public static void main(String[] args) {
+ // basic JFrame setup
+ JFrame frm = new JFrame(“Pokemon Go”);
+ frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</p>
+
+        <p>// contents here 
+ frm.getContentPane().add(new PokemonPanel());</p>
+
+        <p>// displays to screen
+ frm.pack();
+ frm.setVisible(true);</p>
+      </li>
+    </ul>
+
+    <p>}
+}
+‘’’</p>
+  </li>
+</ul>
+
+<p>This is the main method of GUI frame and there is one more class that is connected to frame, this will be more important function class that program of how the result will display by user input. So the frame is outlook from outside and the panel will be a function structed inside of the frame that button or user input will gets the result output.</p>
+
+<p>Source: <a href="https://github.com/km584/km584.github.io/blob/main/PokemonFrame.java">PokemonFrame</a>
+Source: <a href="https://github.com/km584/km584.github.io/blob/main/PokemonPanel.java">PokemonFrame</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

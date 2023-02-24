@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bootstrap is complex web design tool? | Kairi Tanaka | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/km584.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kairi Tanaka | Professional Portfolio">
+    <meta property="og:url" content="https://kairitanaka.github.io/essays/ui-framework.html">
+    <meta property="og:title" content="Bootstrap is complex web design tool? | Kairi Tanaka | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/km584.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bootstrap is complex web design tool? | Kairi Tanaka | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kairi Tanaka</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bootstrap is complex web design tool?</h1>
+  <span class="date">23 Feb 2023</span>
+  <hr>
+  <p><img class="img-fluid" src="../img/bootstrap-withicons.png" />  <img class="img-fluid" src="../img/arrange-websites.jpeg" /></p>
+
+<h2 id="what-is-bootstrap">What is Bootstrap?</h2>
+
+<p>First of all, what is Bootstrap? Since it is a kind of UI Framework and has a framework that allows you to create a website, you can use these to create various web pages such as buttons and links. However, this requires a huge amount of knowledge, because instead of being able to add various functions, you have to set a large number of classes and functions. For example, you have to use this many classes just to create one navigation header like the code below.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4682b4;"&gt;
+  &lt;div class="container"&gt;
+    &lt;ul class="nav"&gt;
+      &lt;li class="nav-logo"&gt;&lt;img src="dominos%20logo.png" width="50px pt-1"&gt;&lt;/img&gt;&lt;/li&gt;
+      &lt;li class="btn-group" role="group" aria-label="Basic example"&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;ORDER ONLINE&lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;LOCATIONS&lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;MENU&lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;COUPONS&lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;TRACKER&lt;/button&gt;
+        &lt;button type="button" class="btn btn-secondary btn-sm" style="background-color: #4682b4;"&gt;REWARDS&lt;/button&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul class="nav justify-content-end"&gt;
+      &lt;li class="nav-logo"&gt;&lt;img src="Free%20pizza.png" width="150px"&gt;&lt;/li&gt;
+      &lt;button type="button" class="btn-sm" style="background-color: #00008b; color: #ffffff;"&gt;SIGN IN &amp; EARN
+      REWARDS&lt;/button&gt;
+      &lt;div class="nav-item dropdown"&gt;
+        &lt;div class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+          &lt;i class="bi bi-cart3" style="color: white;"&gt; &lt;span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"&gt;0 &lt;span class="visually-hidden"&gt;unread messages&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink"&gt;
+          &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Cart is empty&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+      &lt;/div&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/nav&gt;
+</code></pre></div></div>
+
+<h2 id="good-things-about-using-bootstrap">Good things about using Bootstrap</h2>
+
+<p><img class="img-fluid" src="../img/web-design.jpeg" /></p>
+
+<p>However, unlike CSS and HTML, this Bootstrap has much more settings and customization possibilities. With CSS, you can do simple things such as projecting simple sentences and images on a website, arranging them, creating spaces, and connecting to other links, but you can’t create other frames that you can do with UIFramework like Bootstrap. Bootstrap is a very useful tool in this regard, and with this Bootstrap you can create icons, buttons, checkboxes and text areas, so you can add various features that are more complex and functional like other websites. I can.</p>
+
+<h2 id="overall-about-bootstrap">Overall about Bootstrap</h2>
+
+<p>In conclusion, CSS and HTML are suitable for creating simple websites, and UI Frameworks like Bootstrap are complex and suitable for adding functions, so they are suitable tools for creating corporate websites. I think so, for those who want to be a web developer, this UI Framework is a tool that allows them to understand how a website is made. However, with this UIframework, you don’t have to learn all the knowledge, but if you don’t have a certain amount of knowledge, it will be difficult. However, I think this UI Framework is very useful, but I personally don’t want to use it because it may not work well with various settings. An honest and holistic assessment of UI Frameworks would make Bootstrap a fundamental tool for web designers and web developers.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
